@@ -9,7 +9,7 @@ public class L04_Comments {
 		
 		/* This is 
 		 * a comment
-		 * block
+		 * block #2
 		 */
 		
 	}
