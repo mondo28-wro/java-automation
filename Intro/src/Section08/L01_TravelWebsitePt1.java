@@ -17,6 +17,8 @@ public class L01_TravelWebsitePt1 {
 		driver.get("https://www.easyjet.com/pl");
 		
 		driver.findElement(By.id("ensCloseBanner")).click();
+		
+		driver.findElement(By.cssSelector("input[name='origin']")).sendKeys("London");
 	}
 
 }
