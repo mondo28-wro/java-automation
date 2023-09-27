@@ -7,7 +7,7 @@ package Exercises;
  * sum of 1 to 100 is 5050 
  * The average is 50.5
  * 
- * use while-do
+ * use do-while
  */
 
 public class Program3 {
