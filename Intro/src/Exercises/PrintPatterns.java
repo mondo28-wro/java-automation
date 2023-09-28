@@ -12,24 +12,22 @@ import java.util.Scanner;
 public class PrintPatterns {
 
 	public static void main(String[] args) {
-		
-		  PrintPatterns PrintPatterns = new PrintPatterns();
-	        
-	        Scanner in = new Scanner(System.in);
-	        System.out.println("Provide pattern size and press Enter");
-			int size = in.nextInt();
-	        PrintPatterns.printPatternA(size);
+
+		PrintPatterns PrintPatterns = new PrintPatterns();
+
+		Scanner in = new Scanner(System.in);
+		System.out.println("Provide pattern size and press Enter");
+		int size = in.nextInt();
+		PrintPatterns.printPatternA(size);
 
 	}
 
-	
-	private void printPatternA(int size)
-    {
-        for (int i = 1; i <= size; i++) {
-            for (int j = size; j >= 1; j--) {
-                System.out.print(( j <= i ? j : " ") + " ");
-            }
-            System.out.println();
-        }
-    }
+	private void printPatternA(int size) {
+		for (int i = 1; i <= size; i++) {
+			for (int j = size; j >= 1; j--) {
+				System.out.print((j <= i ? j : " ") + " ");
+			}
+			System.out.println();
+		}
+	}
 }
