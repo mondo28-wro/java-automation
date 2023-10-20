@@ -1,7 +1,7 @@
 package Exercises02;
 /**
  * Write a program to extract each digit from an int, in the reverse order. 
-For example, if the int is 15423, the output shall be "3 2 4 5 1", with a space separating the digits.
+For example, if the int is 4526, the output shall be 6254
 
  */
 
